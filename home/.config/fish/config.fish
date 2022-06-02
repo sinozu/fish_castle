@@ -5,3 +5,7 @@ set -x EDITOR vim
 
 source "$HOME/.homesick/repos/homeshick/homeshick.fish"
 
+eval (/opt/homebrew/bin/brew shellenv)
+
+source /opt/homebrew/opt/asdf/asdf.fish
+
