@@ -13,3 +13,8 @@ source /opt/homebrew/opt/asdf/asdf.fish
 
 direnv hook fish | source
 
+
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/uo/google-cloud-sdk/path.fish.inc' ]; . '/Users/uo/google-cloud-sdk/path.fish.inc'; end
+
