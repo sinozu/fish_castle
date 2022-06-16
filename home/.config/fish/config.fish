@@ -2,6 +2,8 @@ alias ssh-peco="grep -w Host ~/.ssh/config | peco | awk '{print \$2}' | xargs -o
 alias ghq-peco="cd (ghq root)/(ghq list | peco)"
 
 set -x EDITOR vim
+set -x PATH ~/.asdf/shims $PATH
+set -x GOPATH ~/go
 
 source "$HOME/.homesick/repos/homeshick/homeshick.fish"
 
