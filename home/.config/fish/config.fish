@@ -11,3 +11,5 @@ eval (/opt/homebrew/bin/brew shellenv)
 
 source /opt/homebrew/opt/asdf/asdf.fish
 
+direnv hook fish | source
+
